@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dine Booking</title>
+  </head>
+  <body>
+    <center>
+      <form>
+        <h2>Dine Booking</h2>
+        <br />
+        <label>Visitor Name: </label>
+        <input type="text" autofocus maxlength="20" />
+        <br />
+        <label>Number of members: </label>
+        <input type="number" max="99" />
+        <br />
+        <label>Contact No: </label>
+        <input type="number" pattern="\d{10}" />
+        <br />
+        <label>Email: </label>
+        <input type="email" />
+        <br />
+        <label>Type of Food: </label>
+        <input type="checkbox" value="South Indian" checked />
+        <label>South Indian</label>
+        <input type="checkbox" value="North Indian" />
+        <label>North Indian</label>
+        <input type="checkbox" value="Chinese" />
+        <label>Chinese</label>
+        <input type="checkbox" value="Western" />
+        <label>Western</label>
+        <br />
+        <label>Room Status: </label>
+        <input type="radio" name="room_status" value="AC" checked />
+        <label>AC</label>
+        <input type="radio" value="Non-AC" name="room_status" />
+        <label>Non-AC</label>
+        <br />
+        <label>Venue Preference: </label>
+        <select name="Venue Preferences">
+          <option value="">--SELECT--</option>
+          <option value="Arena">Arena</option>
+          <option value="Fiesta">Fiesta</option>
+          <option value="Vista">Vista</option>
+          <option value="Mythri">Mythri</option>
+          <option value="Magna">Magna</option>
+          <option value="Oasis">Oasis</option>
+          <option value="Amoeba">Amoeba</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Book" />
+        <input type="Reset" />
+      </form>
+    </center>
+  </body>
+</html>
