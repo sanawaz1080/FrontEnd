@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dine Booking Updated</title>
+  </head>
+  <body>
+    <center>
+      <form>
+        <h2>Dine Booking</h2>
+        <br /><br />
+        <table>
+          <tr>
+            <td>Visitor Name:</td>
+            <td><input required type="text" autofocus maxlength="20" /></td>
+          </tr>
+          <tr>
+            <td>Number of members:</td>
+            <td><input type="number" max="99" required /></td>
+          </tr>
+          <tr>
+            <td>Contact No:</td>
+            <td><input type="number" pattern="\d{10}" required /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" required /></td>
+          </tr>
+          <tr>
+            <td>Type of Food:</td>
+            <td>
+              <input type="checkbox" value="South Indian" checked />South Indian
+              <input type="checkbox" value="North Indian" />North Indian
+              <input type="checkbox" value="Chinese" />Chinese
+              <input type="checkbox" value="Western" />Western
+            </td>
+          </tr>
+          <tr>
+            <td>Room Status:</td>
+            <td>
+              <input type="radio" name="room_status" value="AC" checked />AC
+              <input type="radio" value="Non-AC" name="room_status" />
+              Non-AC
+            </td>
+          </tr>
+          <tr>
+            <td>Venue Preference:</td>
+            <td>
+              <select name="Venue Preferences">
+                <option value="">--SELECT--</option>
+                <option value="Arena">Arena</option>
+                <option value="Fiesta">Fiesta</option>
+                <option value="Vista">Vista</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Magna">Magna</option>
+                <option value="Oasis">Oasis</option>
+                <option value="Amoeba">Amoeba</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="Book" />
+            </td>
+            <td><input type="Reset" /></td>
+          </tr>
+
+          <!-- <label></label> -->
+
+          <!-- <br /> -->
+          <!-- <label></label> -->
+
+          <!-- <br /> -->
+          <!-- <label></label> -->
+
+          <!-- <label></label> -->
+
+          <!-- <label>North Indian</label> -->
+
+          <!-- <label></label> -->
+
+          <!-- <label>Western</label> -->
+          <!-- <br /> -->
+          <!-- <label>Room Status: </label> -->
+
+          <!-- <br /> -->
+          <!-- <label></label> -->
+
+          <!-- <br /><br /> -->
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
